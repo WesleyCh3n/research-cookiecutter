@@ -1,3 +1,7 @@
+import subprocess
+
+subprocess.run(["git", "init"], check=True)
+
 help = """
 Your project has been created!
 
