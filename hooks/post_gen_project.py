@@ -1,5 +1,3 @@
-from pathlib import Path
-
 help = """
 Your project has been created!
 
@@ -10,5 +8,5 @@ uv sync
 
 Enjoy!
 """
-print(f"{Path.cwd()=}")
+
 print(help)
